@@ -3,3 +3,6 @@ numpy
 matplotlib
 seaborn
 scikit-learn
+cv2
+tensorflow
+keras
