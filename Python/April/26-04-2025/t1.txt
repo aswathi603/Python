@@ -1,0 +1,2 @@
+This is a sample text written to t1.txt.
+You can add more content as needed.

@@ -1,0 +1,37 @@
+====================================
+GAN Quiz - Questions and Answers
+====================================
+
+Q1 of 4: GAN stands for __________
+Answer: Generative Adversarial Network
+
+Q2 of 4: GAN can be segmented into ________ sections.
+Answer: 2 (Generator and Discriminator)
+
+Q3 of 4: What are the advantages of GAN models?
+Answer:
+- Semi-supervised learning, when limited data is available
+- Training via backpropagation
+- Can generate new, similar images from an input
+(Not an advantage: Sampling requires Markov chain)
+
+Q4 of 4: Which of the following is not an example of generative models?
+Answer: Linear Classifier (It is a discriminative model)
+
+------------------------------------
+
+Q1 of 3: Identify which of the given problems are generative in nature
+Answer:
+- Creating a new music note ✅
+- What is a sedan and what is an SUV? ✅ *(if interpreted generatively)*
+(Not generative: Identifying type of fruit, Recognizing handwritten digit)
+
+Q2 of 3: The Discriminator in GANs can be
+Answer: Either a Neural Network or a Classifier Network
+
+Q3 of 3: The generative network in GANs takes the following as input
+Answer: Random Noise data
+
+====================================
+
+
