@@ -52,6 +52,8 @@ watcher_thread.start()
 try:
     while True:
         print("Main thread is running ...")
+        a = int(("Please enter a Value : "))
+        print( a + 100)
         time.sleep(5)
 except Exception as e:
     print(f"Exception in main thread: {e}")
