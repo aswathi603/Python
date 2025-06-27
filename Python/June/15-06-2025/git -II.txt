@@ -1,0 +1,44 @@
+git init -> inititilize a new Git repository
+
+---> git init inside the folder it will track the files created, modified, updated or deleted.
+
+
+git add . -> it will add all the files inside a particular floder 
+git add filename -> it will add into your staging area that particular file which you mention 
+
+
+git commit -m "Message" -> it will commit the file which you mention in the git add  command it will commit with message 
+git commit --> it will only commit without a a comment which usually show first commit 
+
+
+git config __gobal user.email --} configure git (only 1 time )
+                   user.name  --}configure git (only 1 time )
+
+                   
+when creating a repository for the first time 
+    in local cmd:
+    git ->tracker the our folder     connection
+
+
+git remote add origin "https link of remote github repo url"
+
+git push -u origin main 
+
+main --> branch
+
+--set-upstream ->  -u 
+
+git clone url
+-->> in this used to bring file s from remote repo to local system
+
+
+git status 
+
+git branch 
+
+git branch branch_name
+to check if the branch_name branch is created or not 
+git pull origin main 
+git pull
+
+
