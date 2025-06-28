@@ -30,11 +30,11 @@ class TodoList:
             print("Invalid choice. Using default 7 days.")
             days = 7
 
-        # 🎯 Ask for priority
+        # Ask for priority
         print("Assign a priority to this task:")
-        print("1. Urgent 🔴")
-        print("2. Important 🟡")
-        print("3. Not So Important 🟢")
+        print("1. Urgent {'\U0001F534'}")
+        print("2. Important {'\U0001F7E1}")
+        print("3. Not So Important {'\U0001F7E2'}")
         p_choice = input("Enter choice (1-3): ")
 
         priority_map = {'1': 'Urgent', '2': 'Important', '3': 'Not So Important'}
@@ -67,13 +67,13 @@ class TodoList:
             # Set icon and color based on manual priority
             if priority == 'Urgent':
                 color = Fore.RED
-                icon = "🔴"
+                icon = "🔴"  # this has icon = "\U0001F534"
             elif priority == 'Important':
                 color = Fore.YELLOW
-                icon = "🟡"
+                icon = "🟡"  # this has icon = "\U0001F7E1"
             else:
                 color = Fore.GREEN
-                icon = "🟢"
+                icon = "🟢"  # this has icon = "\U0001F7E2"
 
             print(f"{i}. {task['name']} | Priority: {icon} {color}{priority}{Style.RESET_ALL} | "
                   f"Start: {task['start_date']} | Deadline: {task['deadline']} | Status: {status}")
