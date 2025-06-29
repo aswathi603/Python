@@ -1,0 +1,11 @@
+online_retail_analysis/
+│
+├── main.py               # Contains the Analysis class (inherits AbstractAnalysis)
+├── abstract_analysis.py  # Defines the AbstractAnalysis base class with run_analysis
+├── data_loader.py        # Handles loading and basic preprocessing of the dataset
+├── pdf_generator.py      # Generates PDF using ReportLab
+├── analyzer.py           # Does core analysis: summary, facts, insights, plots
+├── utils.py              # Optional helpers: formatters, plot styling, etc.
+├── assets/               # (optional) for saved plots (pngs) to be used in PDF
+└── output/
+    └── report.pdf        # Final PDF output
