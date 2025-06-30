@@ -91,7 +91,7 @@ class DataAnalyzer:
         # Plot 5: Distribution of Unit Price
         plt.figure(figsize=(6, 4))
         plt.xlim(0, 50)
-        sns.barplot(x=invoice_revenue.index.astype(str), y=invoice_revenue.values, hue=invoice_revenue.index.astype(str), palette="Set3", legend=False)
+        sns.histplot(df['UnitPrice'], bins=50, color='skyblue')  # ✅ Correct plot for Unit Price distribution
         plt.title("Distribution of Unit Price")
         plt.tight_layout()
         plt.savefig(os.path.join(self.ASSETS_DIR, "unit_price_dist.png"))
