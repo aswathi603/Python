@@ -1,11 +1,17 @@
-online_retail_analysis/
-│
-├── main.py               # Contains the Analysis class (inherits AbstractAnalysis)
-├── abstract_analysis.py  # Defines the AbstractAnalysis base class with run_analysis
-├── data_loader.py        # Handles loading and basic preprocessing of the dataset
-├── pdf_generator.py      # Generates PDF using ReportLab
-├── analyzer.py           # Does core analysis: summary, facts, insights, plots
-├── utils.py              # Optional helpers: formatters, plot styling, etc.
-├── assets/               # (optional) for saved plots (pngs) to be used in PDF
-└── output/
-    └── report.pdf        # Final PDF output
+Assignment/
+├── assets/                     ← 📊 All plots from Level-2 and Level-3
+│   ├── top_countries.png
+│   ├── monthly_sales.png
+│   ├── top_products.png
+│   ├── revenue_country.png
+│   ├── unit_price_dist.png
+│   └── invoice_revenue.png
+├── output/                     ← 📄 PDF reports for each level
+│   ├── LEVEL-1_analysis_report.pdf
+│   ├── LEVEL-2_analysis_report.pdf
+│   └── LEVEL-3_analysis_report.pdf
+├── analyzer.py                 ← 💡 Contains DataAnalyzer class (Level logic, plots)
+├── abstract_analysis.py        ← 📜 Abstract class with `run_analysis` method
+├── data_loader.py              ← 📥 Reads and loads Online Retail dataset
+├── pdf_generator.py            ← 📄 Generates styled PDF using ReportLab
+└── main.py                     ← 🏁 Entry point; asks level input and executes everything
