@@ -72,7 +72,7 @@ class PDFReport:
                     c.drawImage(img_path, 40, height / 2 - 100, width=5.5 * inch, preserveAspectRatio=True)
                 except Exception as e:
                     c.setFont("Helvetica", 12)
-                    c.drawString(40, height / 2, f"⚠️ Error loading {img_path}: {e}")
+                    c.drawString(40, height / 2, f" Error loading {img_path}: {e}")
             else:
                 # Add placeholder for missing plots
                 c.showPage()
@@ -82,7 +82,7 @@ class PDFReport:
                 c.drawString(40, height - 70, f"{plot_key} not found in results or image path doesn't exist.")
 
         c.save()
-        print(f"✅ PDF saved at: {self.filename}")
+        print(f"PDF saved at: {self.filename}")
 
     def wrap_text(self, text, width):
         return textwrap.wrap(text, width)
