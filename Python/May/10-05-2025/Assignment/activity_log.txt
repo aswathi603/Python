@@ -1,0 +1,6 @@
+[2025-06-30 18:25:16] DATABASE_EDIT: User 'Aswathi' updated 'age' from 'None' to '23'
+[2025-06-30 18:25:16] DATABASE_EDIT: User 'Rahil' updated 'location' from 'None' to 'Delhi'
+[2025-06-30 18:25:16] ERROR: User 'Aswathi' encountered an error: unhashable type: 'list'
+[2025-06-30 18:25:21] DATABASE_EDIT: User 'Aswathi' updated 'age' from 'None' to '23'
+[2025-06-30 18:25:21] DATABASE_EDIT: User 'Rahil' updated 'location' from 'None' to 'Delhi'
+[2025-06-30 18:25:21] ERROR: User 'Aswathi' encountered an error: unhashable type: 'list'

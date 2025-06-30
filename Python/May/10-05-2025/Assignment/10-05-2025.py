@@ -1,4 +1,4 @@
-#  💻 Programming Task:
+#  Programming Task:
 # Write a Python program that demonstrates the use of:
 
 # Functions for modularity,
@@ -7,7 +7,7 @@
 
 # Object-Oriented Programming (OOP) to model users and a database.
 
-# 📝 Requirements:
+# Requirements:
 # Error Logging:
 
 # Whenever an error occurs, the program should automatically log the timestamp and a description of the error into a file.
@@ -42,7 +42,7 @@
 
 # OOP (Object-Oriented Programming) for managing users and a simulated database.
 
-# ✅ Features:
+# Features:
 # Logs errors with timestamps.
 
 # Logs database edits with user info and timestamps.
@@ -102,11 +102,11 @@ if __name__ == "__main__":
     main()
 
 
-# 📁 Output (activity_log.txt will look like this):
+# Output (activity_log.txt will look like this):
 # [2025-05-22 17:40:22] DATABASE_EDIT: User 'Aswathi' updated 'age' from 'None' to '23'
 # [2025-05-22 17:40:22] DATABASE_EDIT: User 'Rahil' updated 'location' from 'None' to 'Delhi'
 # [2025-05-22 17:40:22] ERROR: User 'Aswathi' encountered an error: unhashable type: 'list'
-# 🧠 Key Concepts Used:
+# Key Concepts Used:
 # OOP: User and Database classes.
 
 # Functions: log_event(), get_timestamp().
